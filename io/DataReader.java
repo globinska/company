@@ -38,7 +38,7 @@ public class DataReader {
         String position = input.nextLine();
         System.out.println("Function:");
         String function = input.nextLine();
-        System.out.println("Menagement level:");
+        System.out.println("Menagement level (number:");
         int level = input.nextInt();
         input.nextLine();
 
