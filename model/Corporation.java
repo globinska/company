@@ -25,10 +25,11 @@ public class Corporation implements Serializable {
 
     public void addWorker(Worker worker) {
         if (workersNumber < MAX_WORKERS) {
+            workers[workersNumber] = worker;
+            workersNumber++; 
+        } else {
             throw new ArrayIndexOutOfBoundsException("maximum number of workers exceeded" + MAX_WORKERS);
         }
-        workers[workersNumber] = worker;
-        workersNumber++;
     }
 
     @Override
