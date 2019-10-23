@@ -37,7 +37,7 @@ public class Intern extends Worker {
 
     @Override
     public String toString() {
-        return universityName+" "+getYearOfStudies();
+        return super.toString()+" "+universityName+" "+getYearOfStudies();
     }
 
     @Override
