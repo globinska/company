@@ -37,7 +37,7 @@ public class Employee extends Worker{
 
     @Override
     public String toString() {
-        return function+" "+level;
+        return super.toString()+" "+function+" "+level;
     }
 
     @Override
