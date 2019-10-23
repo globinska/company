@@ -146,7 +146,7 @@ public class CorporationControl {
             try {
                 return Option.values()[option];
             } catch (ArrayIndexOutOfBoundsException e){
-                throw new NoSuchOptionException("There is no "+option+ "option!");
+                throw new NoSuchOptionException("There is no "+option+ " option!");
 
             }
         }
